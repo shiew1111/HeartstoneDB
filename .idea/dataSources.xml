@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="CardDatabase.sqlite" uuid="3905fd52-f5d6-4ed4-8dfb-50c322aefb25">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:F:\Python\Zadanie Robert I Piotr\CardDatabase.sqlite</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+        <property name="date_string_format" value="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
