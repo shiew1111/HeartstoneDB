@@ -33,3 +33,4 @@ class Card:
             "ISelite": elite,
             "race": race
         }
+

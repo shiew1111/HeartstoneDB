@@ -13,9 +13,9 @@ class Request:
         self.response = requests.request("GET", self.url, headers=self.headers)
 
     def from_api(self):
-
         if self.response.json() == {"error": 404, "message": "Card not found."}:
             sys.exit(self.response.json())
+
         return self.response.text
 
 
@@ -28,7 +28,6 @@ class Card:
                 setattr(self, key, dictionary[key])
         for key in kwargs:
             setattr(self, key, kwargs[key])
-
 
     # metode that  catch attributes witch are interesting for us, and put them into dict with keys named like sql columns.
     def sql_attribute(self):

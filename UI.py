@@ -34,7 +34,7 @@ def console_interface():
                         help='Start to pull data from API by cardId and put date to DataBase.')
     parser.add_argument('--edit', dest='edit', nargs='*', help='Edit columns in row with specific cardID, first arg '
                                                                'is cardId, then column value. Example : --edit '
-                                                               'EX1_572 name dupa type kupa ')
+                                                               'EX1_572 name something type somethingElse ')
     args = parser.parse_args()
 
     edit = args.edit
